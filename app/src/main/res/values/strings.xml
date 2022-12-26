@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Журнал обліку викладача</string>
+    <string name="second_activity_chooseAll">Усі присутні</string>
+    <string name="second_activity_chooseNoOne">Усі відсутні</string>
+    <string name="choose_epsents">Позначте відсутніх:</string>
+    <string name="input_name_monitor">Введіть ім\'я старости...</string>
+    <string name="monitorOftheGroup">Додайте старосту:</string>
+    <string name="save_changes">Застосувати зміни</string>
+    <string name="addTeacher">Додати нового викладача</string>
+    <string name="monitor"><![CDATA[<b><font color=#FF0000> - староста</font></b>]]></string>
+    <string name="CardView">Список студентів</string>
+    <string name="absents">Список відсутніх студентів:</string>
+    <string name="monitorIsAbsent">Присутність старости: відсутній</string>
+    <string name="monitorIsNotAbsent">Присутність старости: присутній</string>
+    <string name="noAbsents">Відсутніх немає!</string>
+
+
+    <string-array name="nameOfStudents">
+        <item>Бабійчук І.О.</item>
+        <item>Балух Б.А.</item>
+        <item>Гаврилюк О.О.</item>
+        <item>Галімон Р.С.</item>
+        <item>Годний М.О.</item>
+        <item>Гуменюк О.Ю.</item>
+        <item>Добровольський Д.С.</item>
+        <item>Івасюк В.В.</item>
+        <item>Івахов П.В.</item>
+        <item>Клєйманов І.О.</item>
+        <item>Ковальов М.Д.</item>
+        <item>Петришен О.Р.</item>
+        <item>Поляков В.П.</item>
+        <item>Поташна К.Я.</item>
+        <item>Сирота О.К.</item>
+        <item>Степанчук Д.В.</item>
+        <item>Ткаченко Р.В.</item>
+        <item>Тута В.А.</item>
+
+    </string-array>
+
+</resources>

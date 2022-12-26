@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"> <!--IMPORTANT otherwise backgrnd img. will not fill the whole screen -->
+    <RelativeLayout
+        android:id="@+id/Activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/absents"
+            style="@style/cardTitleStyle"/>
+        <TextView
+            android:id="@+id/absentsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text"
+            style="@style/CustomStyle"/>
+
+        <TextView
+            android:id="@+id/textStatistics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/absentsText"
+            android:text="Загальна статистика по групі:"
+            style="@style/cardTitleStyle"/>
+        <TextView
+            android:id="@+id/countOfAbsents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textStatistics"
+            style="@style/CustomStyle"/>
+        <TextView
+            android:id="@+id/monitorAbsents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/countOfAbsents"
+            style="@style/CustomStyle" />
+        <TextView
+            android:id="@+id/enableTeachers"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Доступні викладачі:"
+            android:layout_below="@+id/monitorAbsents"
+            style="@style/cardTitleStyle"/>
+        <TextView
+            android:id="@+id/listNames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enableTeachers"
+            style="@style/CustomStyle"/>
+
+        <ImageView
+            android:id="@+id/smileImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="60dp"
+            android:layout_below="@+id/listNames"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
